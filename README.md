@@ -2,13 +2,13 @@ Commons Classifieds
 ===================
 
 Template base de todos los sites de clasificados
-#### ML clasificados
-#### TuCarro CO-VE
-#### TuInmueble CO-VE
-#### TuMoto CO-VE
-#### TuLancha CO-VE
-#### TuAvion CO-VE
-#### AutoPlaza MX
+* ML clasificados
+* TuCarro CO-VE
+* TuInmueble CO-VE
+* TuMoto CO-VE
+* TuLancha CO-VE
+* TuAvion CO-VE
+* AutoPlaza MX
 
 
 ### Versión completa
