@@ -21,7 +21,7 @@ Uso general en todas las aplicaciones
 * Footer extendido
 
 ### Versión light
-De uso en aplicaciones con funcionalidad bien definida, ej: formularios.
+Uso en aplicaciones con funcionalidad bien definida, ej: formularios.
 #### Contiene
 * Logo
 * Icomo de ayuda
