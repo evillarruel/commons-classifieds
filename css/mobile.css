@@ -1,0 +1,202 @@
+body {
+    min-width: 100%;
+    background: none;
+}
+body div{
+    display: block;
+}
+.ml-common-wrapper{
+    min-width: 100%;
+}
+/* Header */
+.ml-header {
+    height: auto;
+    padding: 0;
+    position: relative;
+}
+.tc .ml-header{
+    border-bottom: 1px solid #CCCCCC;
+}
+.ml-header-btn, 
+.ml-header-btn:focus, 
+.ml-header-btn:visited {
+    background-color: #EFEFEF;
+    background-image: -webkit-linear-gradient(transparent 25%, rgba(99, 99, 99, .12));
+    background-image: linear-gradient(transparent 25%, rgba(99, 99, 99, .12));
+    -webkit-box-shadow: inset 0 1px #FFF;
+    color: #666;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    box-shadow: inset 0 1px rgba(255, 255, 255, .75);
+    font-size: .9em;
+    height: 30px;
+    left: 7px;
+    line-height: 30px;
+    padding: 0 10px;
+    position: absolute;
+    text-shadow: 0 1px rgba(255, 255, 255, .75);
+    top: 7px;
+}
+a.ml-header-btn{
+    color: #666;
+    text-shadow: 0 1px 1px rgba(255,255,255,.75);
+}
+.ml-header-action {
+    left: auto;
+    right: 7px;
+}
+.ml-header-inner {
+    min-width: 100%;
+    padding: 0px;
+}
+.ml-header h1 {
+    font-size: 1.2em;
+    line-height: 50px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 1px rgba(255, 255, 255, .75);
+    display: block;
+}
+.ml-header-btn{
+    display: inline-block;
+}
+.ml-navigation{
+    border-bottom: solid 1px #fff;
+    margin-bottom: -2px;
+}
+.ml-navigation > ul{
+    display: none;
+}
+.ml-navigation .menu-mobile{
+    position: absolute;
+    right: 2%;
+    width: 35px;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    bottom: 6px;
+    display: block;
+}
+.ml-navigation > ul.ch-list li.ml-list,
+.ml-navigation > ul.ch-list li.ml-contact,
+.ml-navigation > ul.ch-list li.ml-help{
+    display: none;
+}
+.ml-navigation .menu-mobile:before{
+    font-size: 22px;
+}
+.ml-navigation > ul.ch-list {
+    background: #f4f4f4;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    margin: 21px 0 15px;
+    width: 94%;
+    margin-right: 3%;
+    margin-top: 1em;
+    position: relative;
+}
+.ml-navigation > ul.ch-list:before {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #f4f4f4;
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: 2%;
+}
+.ml-navigation > ul.ch-list li, .ml-navigation > ul.ch-list li a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+color: #555555;
+}
+.ml-navigation > ul.ch-list li a:after {
+    content: "\f054";
+    line-height: 24px;
+    font-size: 14px;
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    margin-top: -11px;
+    font-family: icons;
+    color: #999;
+}
+.ml-navigation > ul.ch-list li {
+    width: 92%;
+    padding: 10px;
+    margin: 2;
+    border-bottom: 1px dotted #CCC;
+    border-right: solid 0;
+}
+.ml-navigation > ul.ch-list li a {
+    margin: 0 -10px 0 -10px;
+    padding: 0 25px 0 10px;
+    font-size: 14px;
+}
+.ml-navigation > ul.ch-list li:last-child {
+    border-bottom: 0;
+}
+.ml-navigation > ul.ch-list li:nth-child(2){
+    border-bottom: 0;
+}
+/* ----------------------------------------- */
+.ml-header-inner a.ml-logo{
+    position: relative;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+    background-position: center top;
+}
+.ml-search {
+    float: none;
+    margin: 10px 0 15px 10px;
+    position: relative;
+    width: 82%;
+    height: 30px;
+}
+.ml-search.search-focus{
+    width: 94%;
+    z-index: 100;
+}
+.ml-category{
+    display: none;
+}
+.ml-search-categ input[type="text"] {
+    height: 20px;
+}
+.ml-search .ml-btn {
+    height: 32px;
+    width: 35px;
+}
+.ml-header .ch-icon-search{
+    margin: 0;
+}
+/* content */
+.ml-content{
+    padding: 2%;
+    padding-bottom: 1em;
+    min-width: 96%;
+}
+/* Footer */
+.ml-footer {
+    background-color: transparent;
+    border-top: 0 solid #EBEBEB;
+    color: #999;
+}
+.ml-footer .ml-inner-footer {
+    padding: 0 10px;
+}
+.ml-footer .ml-links {
+    display: none;
+}
+.ml-footer-control{
+    display: none;
+}
+.ml-footer .ml-footer-legal{
+    border-top: 0 solid; 
+}

@@ -1,0 +1,91 @@
+body {
+    min-width: 100%;
+    background: none;
+}
+body div{
+    display: block;
+}
+/* Header */
+.ml-header {
+    position: relative;
+    margin-bottom: 1em;
+    height: 45px;
+    background-color: #efefef;
+    background-image: linear-gradient(top,#efefef 10%,#e2e2e2 56%);
+    background-image: -o-linear-gradient(top,#efefef 10%,#e2e2e2 56%);
+    background-image: -moz-linear-gradient(top,#efefef 10%,#e2e2e2 56%);
+    background-image: -webkit-linear-gradient(top,#efefef 10%,#e2e2e2 56%);
+    background-image: -ms-linear-gradient(top,#efefef 10%,#e2e2e2 56%);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.1,#efefef),color-stop(0.56,#e2e2e2));
+}
+.tc .ml-header{
+    border-bottom: 1px solid #CCCCCC;
+}
+.ml-header-btn, 
+.ml-header-btn:focus, 
+.ml-header-btn:visited {
+    background-color: #EFEFEF;
+    background-image: -webkit-linear-gradient(transparent 25%, rgba(99, 99, 99, .12));
+    background-image: linear-gradient(transparent 25%, rgba(99, 99, 99, .12));
+    -webkit-box-shadow: inset 0 1px #FFF;
+    color: #666;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    box-shadow: inset 0 1px rgba(255, 255, 255, .75);
+    font-size: .9em;
+    height: 30px;
+    left: 7px;
+    line-height: 30px;
+    padding: 0 10px;
+    position: absolute;
+    text-shadow: 0 1px rgba(255, 255, 255, .75);
+    top: 7px;
+}
+a.ml-header-btn{
+    color: #666;
+    text-shadow: 0 1px 1px rgba(255,255,255,.75);
+}
+.ml-header-action {
+    left: auto;
+    right: 7px;
+}
+.ml-header-inner{
+    min-width: 100%;
+    padding: 0;
+}
+.ml-header h1 {
+    font-size: 1.2em;
+    line-height: 50px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 1px rgba(255, 255, 255, .75);
+    display: block;
+}
+.ml-header-btn{
+    display: inline-block;
+}
+.ml-navigation{
+    display: none;
+}
+.ml-logo{
+    display: none;
+}
+/* content */
+.ml-content{
+    padding: 2%;
+    padding-top: 0;
+    padding-bottom: 1em;
+    min-width: 96%;
+}
+/* Footer */
+.ml-footer {
+    background-color: transparent;
+    border-top: 0 solid #EBEBEB;
+    color: #999;
+}
+.ml-footer .ml-inner-footer {
+    padding: 0 10px;
+}
+.ml-footer .ml-links {
+    display: none;
+}

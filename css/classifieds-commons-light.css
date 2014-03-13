@@ -1,0 +1,204 @@
+/*
+ *	Global
+ */
+html,
+body{
+	height: 100%;
+	padding: 0;
+	max-width: 100%;
+}
+.ml-common-wrapper{
+	min-height: 100%;
+	position: relative;
+}
+.ml-header-inner {
+	margin: 0 auto;
+	max-width: 1200px;
+	min-width: 950px;
+	padding: 7px 10px;
+	position: relative;
+	z-index: 1000;
+}
+/* Icons */
+.ml-header .ch-icon-question-sign{
+	background-image: url(http://static.mlstatic.com/org-img/commons/classifieds.01.2/images/classifieds-icons-menu.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+.ml-header .ch-icon-question-sign:before {
+	display: none;
+}
+.ml-header .ch-icon-question-sign {
+	background-position: 4px -129px;
+	width: 18px; 
+	height: 18px;
+	text-indent: -9999px;
+}
+/*
+ *	Logos
+ *  Default / ML
+ */
+.ml-header {
+	background-color: #FFF059;
+	border-bottom: 1px solid #D9D9D9;
+	height: 54px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+}
+.ml-logo {
+	background-repeat: no-repeat;
+	margin: 0;
+	position: absolute;
+	top: 7px;
+	left: 10px;
+	text-indent: -9000px;
+	width: 164px;
+	height: 43px;
+}
+.ml-logo.es {
+	background-image: url(http://static.mlstatic.com/org-img/commons/logo-mercadolibre-new.png);
+}
+.ml-logo.pt {
+	background-image: url(http://static.mlstatic.com/org-img/commons/logo-mercadolivre-new.png);
+}
+/* Commons*/
+.tc .ml-logo,
+.ti .ml-logo,
+.tm .ml-logo,
+.tl .ml-logo,
+.ta .ml-logo{
+	top: 14px;
+	width: 202px;
+	height: 28px;
+}
+.tc .ml-header .ch-icon-question-sign,
+.tm .ml-header .ch-icon-question-sign,
+.tl .ml-header .ch-icon-question-sign,
+.ta .ml-header .ch-icon-question-sign,
+.ap .ml-header .ch-icon-question-sign {
+	background-position: 0 -65px;
+}
+.ml-navigation > ul {
+float: right;
+margin: 7px 0;
+}
+/* Tu Carro */
+.tc .ml-logo {
+	background-repeat: no-repeat;
+	margin: 0;
+}
+.tc .ml-header{
+	background-color: #363636;
+	border-bottom: 1px solid 
+}
+.tc .ml-logo {
+	background-image: url(http://static.mlstatic.com/org-img/commons/logo-tucarro.03.png);
+}
+/* Tu Inmueble */
+.ti .ml-header {
+	background-color: #888888; 
+}
+.ti .ml-header .ml-navigation a {
+	color: #333333;
+}
+.ti .ml-logo {
+	background-image: url(http://static.mlstatic.com/org-img/commons/logo-tuinmueble.03.png);
+}
+/* Tu Moto */
+.tm .ml-header{
+	background-color: #101010;
+}
+.tm .ml-logo {
+	background-image: url(http://static.mlstatic.com/org-img/commons/logo-tumoto.03.png);
+}
+/* Tu Lancha */
+.tl .ml-header{
+	background-color: #0A3971;
+}
+.tl .ml-logo {
+	background-image: url(http://static.mlstatic.com/org-img/commons/logo-tulancha.03.png);
+}
+/* Tu Avion */
+.ta .ml-header{
+	background-color: #021E3F;
+}
+.ta .ml-logo {
+	background-image: url(http://static.mlstatic.com/org-img/commons/logo-tuavion.03.png);
+}
+/* Autoplaza */
+.ap .ml-header{
+	background-color: #363636;
+}
+.ap .ml-logo {
+	background-image: url(http://static.mlstatic.com/org-img/commons/logo-autoplaza.png);
+	width: 202px;
+	height: 28px;
+	top: 14px;
+}
+/* Fix */
+.ml-clearfix{
+	clear: both;
+}
+/* Header */
+h1.ml-title,
+.ml-header-btn{
+	display: none;
+}
+/* Content */
+.ml-content{
+	margin: auto;
+	max-width: 1200px;
+	min-width: 760px;
+	padding-top: 70px;
+	padding-bottom: 150px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* Footer */
+.ml-footer {
+background-color: #F9F9F9;
+border-top: 1px solid #EBEBEB;
+color: #999;
+display: block;
+border-style: solid;
+bottom: 0px;
+width: 100%;
+position: absolute;
+}
+.ml-footer .ml-inner-footer {
+margin: 0 auto;
+max-width: 1200px;
+padding: 0 15px;
+}
+.ml-footer .ml-footer-legal {
+margin-top: -1px;
+overflow: hidden;
+padding: 11px 0 10px;
+}
+.ml-footer .ml-links {
+display: inline;
+}
+.ml-footer .ml-links li {
+display: inline;
+border-right: 1px solid #DDD;
+padding: 0 7px;
+}
+.ml-footer .ml-links li:last-child {
+border: 0;
+}
+
+
+
+
+
+
