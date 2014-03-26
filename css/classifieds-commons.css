@@ -25,9 +25,10 @@ body{
 	max-width: 1200px;
 	min-width: 760px;
 	padding-top: 70px;
-	padding-bottom: 15px;
+	padding-bottom: 70px;
 	padding-left: 10px;
 	padding-right: 10px;
+	position: relative;
 }
 .ml-btn,
 .ml-btn:visited,
@@ -186,6 +187,10 @@ body{
 .ml-navigation .menu-mobile{
 	display: none;
 }
+.ml-header .ch-icon-phone,
+.ml-header .ch-icon-question-sign{
+	margin-right: 0;
+}
 /* Tu Carro */
 .tc .ml-logo {
 	background-repeat: no-repeat;
@@ -296,7 +301,7 @@ body{
 	float: left;
 	background: #FFF;
 	border-radius: 4px;
-	width: 41%; 
+	width: 42%; 
 	height: 40px;
 }	
 .ml-search input[type=text] {
