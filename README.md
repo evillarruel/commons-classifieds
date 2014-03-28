@@ -31,12 +31,16 @@ Uso en aplicaciones con funcionalidad bien definida, ej: formularios.
 Cada una de las versiones de los templates base se adapta si el usuario ingresa de un dispositivo móvil.
 
 Solo se carga la hoja de estilos correspondiente a mobile si el usuario ingresa de un dispositivo móvil.
+````html
+<!-- Load only for mobile -->
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" >
+
+````
 
 ````html
 <!-- Load only for mobile -->
-<link rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)">
-<link rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (-webkit-min-device-pixel-ratio: 1.5)"/>
-<link rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (-webkit-min-device-pixel-ratio: 2)"/>
+    <link rel="stylesheet" type="text/css" href="css/mobile-light.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" >
+
 ````
 
 #### Carga de JS solo para mobile
